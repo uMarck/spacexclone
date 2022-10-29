@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap");
+* {
+  color: white;
+  font-family: "Montserrat", "Fredoka One";
+}
+
+#navItem {
+  transition: 0.5s;
+}
+#navItem:hover {
+  color: #b9b9b9;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.container00 {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container00.container01 {
+  background-image: url(../IMG/01\ dark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container00.container03 {
+  background-image: url(../IMG/02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container00.container07 {
+  background-image: url(../IMG/08.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container00.carrosel01 {
+  background-image: url(../IMG/03.jpg);
+}
+.container00.carrosel02 {
+  background-image: url(../IMG/04.jpg);
+}
+.container00.carrosel03 {
+  background-image: url(../IMG/05.jpg);
+}
+.container00.carrosel04 {
+  background-image: url(../IMG/06.jpg);
+}
+.container00.carrosel05 {
+  background-image: url(../IMG/07.jpg);
+}
+
+.titleFalcon9 {
+  font-size: 90px;
+  font-family: "Montserrat";
+  font-weight: 514;
+}
+
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.numbers .titleNumb {
+  font-size: 90px;
+}
+.numbers .subtitleNumb {
+  font-size: 20px;
+}
+
+.falcon9Desc {
+  font-size: 23px;
+  width: 640px;
+  line-height: 50px;
+}
+
+.containerFalcon9Desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carroselSlide img {
+  height: 100vh;
+}
+
+.carroselText {
+  background-color: black;
+}
+
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+}
+.downloadDesc a {
+  text-decoration: none;
+  color: #555252;
+  transition: 0.5s;
+}
+.downloadDesc a:hover {
+  color: #b9b9b9;
+}
+.downloadDesc button {
+  border: 2px solid white;
+  margin-right: 5px;
+}
+
+.titlecontent {
+  padding-top: 155px;
+}
+.titlecontent p:nth-child(1) {
+  font-size: 129px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.logoPc {
+  width: 240px;
+  margin-left: 0px;
+  margin-right: 40px;
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.footer .copyOBC {
+  color: #555252;
+}
+
+@media (max-width: 768px) {
+  .titlecontent {
+    padding-top: 350px;
+  }
+  #overViewPosition {
+    padding-top: 35%;
+    font-size: 15px;
+    width: 420px;
+  }
+  .falcon9Desc {
+    width: auto;
+  }
+  .downloadDesc {
+    padding-top: 355px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+  .numbers .titleNumb {
+    font-size: 45px;
+  }
+  .numbers .subtitleNumb {
+    font-size: 15px;
+  }
+  .titlecontent {
+    padding-top: 350px;
+  }
+  .titlecontent p:nth-child(1) {
+    font-size: 50px;
+  }
+  #overViewPosition {
+    width: 300px;
+    margin-left: 10%;
+  }
+  .downloadDesc {
+    padding: 250px;
+  }
+  .downloadDesc .btn {
+    margin: 15px;
+  }
+}
+@media (max-width: 375px) {
+  .titlecontent p:nth-child(1) {
+    font-size: 50px;
+  }
+  .titleFalcon9 {
+    font-size: 50px;
+  }
+  .falcon9Desc {
+    line-height: auto;
+    font-size: 20px;
+  }
+  #overViewPosition {
+    width: 75%;
+    margin-left: 1%;
+    font-size: 9px;
+    text-shadow: 0.5px 0.5px 5px rgb(0, 0, 0);
+  }
+  .downloadDesc {
+    padding-top: 135px;
+  }
+  .downloadDesc button {
+    margin-top: 5px;
+  }
+}/*# sourceMappingURL=flacon9.css.map */

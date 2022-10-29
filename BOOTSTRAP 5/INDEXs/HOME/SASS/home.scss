@@ -1,0 +1,137 @@
+$link-hover: #b9b9b9;
+$copy-color: #555252;
+$table-item: #d8d8d8;
+$padding: 20px 0px;
+$padding-btn: 15px 35px;
+
+* {
+    color: white;
+    font-family: 'Montserrat', 'Fredoka One';
+}
+
+#navItem {
+    transition: 0.5s;
+    &:hover {
+        color: $link-hover;
+    }
+}
+
+.header {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.container00 {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container01 {
+    background-image: url(../home/01.jpg);
+}
+.container02 {
+    background-image: url(../home/03.jpg);
+}
+.container03 {
+    background-image: url(../home/02.gif);
+}
+.container04 {
+    background-image: url(../home/04.jpg);
+}
+
+.arrowDown {
+    display: inline-block;
+    width: 90px;
+    margin-top: 5px;
+}
+
+.logoPc {
+    width: 240px;
+    margin-left: -0px;
+    margin-right: 40px;
+}
+
+.titlePadding {
+    padding-top: 200px;
+}
+
+.shortTitle {
+    width: 550px;
+    margin-bottom: -25px;
+}
+
+.mediumTitle {
+    width: 650px;
+    margin-bottom: -25px;
+}
+
+#button {
+    padding: $padding-btn;
+}
+
+.footer {
+    background-color: black;
+    height: 15vh;
+    font-size: 12px;
+    font-weight: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        color: white;
+        transition: 0.5s;
+        &:hover {
+            color: $link-hover;
+        }
+    }
+
+    .copyOBC {
+        color: $copy-color;
+    }
+}
+
+@media (max-width: 750px) {
+    .titlePadding {
+        padding-top: 120px;
+    }
+
+    .shortTitle, 
+    .mediumTitle {
+        width: auto;
+        font-size: 50px;
+    }
+
+
+}
+
+@media (max-width: 405px) {
+    .logoPc {
+        width: 180px;
+        margin-top: 15px;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 376px) {
+    .titlePadding {
+        padding-top: 155px;
+    }
+
+    .arrowDown {
+        padding-top: 150px;
+    }
+}
+
+@media (max-width: 350px) {
+    .logoPc {
+        width: 150px;
+        margin-top: 15px;
+    }
+}
