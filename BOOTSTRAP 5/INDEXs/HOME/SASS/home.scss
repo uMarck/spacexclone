@@ -29,16 +29,16 @@ $padding-btn: 15px 35px;
 }
 
 .container01 {
-    background-image: url(../home/01.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../home/01.jpg);
 }
 .container02 {
-    background-image: url(../home/03.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../home/03.jpg);
 }
 .container03 {
-    background-image: url(../home/02.gif);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../home/02.gif);
 }
 .container04 {
-    background-image: url(../home/04.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../home/04.jpg);
 }
 
 .arrowDown {
@@ -108,6 +108,38 @@ $padding-btn: 15px 35px;
 
 }
 
+@media (max-width: 415px) {
+    .logoPc {
+        width: 180px;
+        margin-top: 15px;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+
+    .titlePadding {
+        padding-top: 300px;
+        text-align: center;
+        text-shadow: 1px 1px 15px rgb(0, 0, 0);
+        font-family: 'Montserrat';
+
+        .h5 {
+            font-size: 30px;
+            font-weight: bolder;
+        }
+
+        .h1 {
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .btn {
+            filter: drop-shadow(1px 1px 15px black);
+        }
+    }
+}
+
 @media (max-width: 405px) {
     .logoPc {
         width: 180px;
@@ -118,6 +150,7 @@ $padding-btn: 15px 35px;
         font-size: 10px;
     }
 }
+
 
 @media (max-width: 376px) {
     .titlePadding {
